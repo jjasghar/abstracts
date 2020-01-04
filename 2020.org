@@ -1,0 +1,79 @@
+#+TITLE:       2020 Abstracts
+#+AUTHOR:      JJ Asghar
+#+DATE:        2020-01-03
+#+EMAIL:       jjasghar@gmail.com
+
+* Cloud Native Application Development with Kubernetes and OpenShift
+** Talk Abstract
+Cloud native revolutionized the way we look at application development. Learning to use OpenShift on top of Kubernetes, changes the way teams look at deployments of these cloud native applications. In this workshop you will learn the steps necessary to take advantage of this revolutionary approach.
+** Talk Description
+Cloud native revolutionized the way we look at app development and is now one of the most popular programming architectures. OpenShift alongside Kubernetes is changing the way teams look at deployments of these microservices. Kubernetes provides powerful production-grade orchestration for your microservices. In this workshop, you’ll get an overview of Kubernetes, and move directly into leveraging OpenShift to what it provides for application development. You’ll then go through the process of building and deploying a microservice application in this cloud native way. This is a hands-on-keyboard lab, everyone should come with a laptop and a desire to learn. Attendees can use OpenShift locally, but would prefer the free IBM cloud resources that will be provided.
+- Overview and Kubernetes basics
+- Building Container Image with OpenShift
+- Deploying the application into OpenShift
+- Upgrading and scaling the application with OpenShift
+- Debugging your application in OpenShift
+** Notes
+Who should attend: Anyone interested in getting a hands on overview of Kubernetes, and the advantages of using OpenShift instead of vanilla Kubernetes, whether they are interested in developing for the platform, or may need to support folks that are.
+Take back to work: The take away should be a firm understanding of the Kubernetes environment and using OpenShift’s workflow, and how one develops for it. It aims to expose some of the benefits of the platform so that people who are evaluating bringing it into their environment can have a deeper sense of what application development looks like on it.
+* COBOL on Kubernetes
+** Talk Abstract
+Kubernetes owning the mind share of the next generation, legacy applications are getting farther behind. There is hesitation around moving these legacy applications to this new platform. I’ll walk through a perfect litmus test of why any developed application can run on this unified platform.
+** Talk Description
+With Kubernetes owning the mind share of the next generation of applications, legacy applications are getting farther and farther behind. There is hesitation around moving these legacy applications to this new control plane and platform. They were developed at a time when there was a specific and consistent way of developing software allowing Developers to focus on the business value instead of the Operations requirements. The world is quickly moving on, and the software that runs a significant amount of the world is being left behind. This talk, I’ll walk through what I thought was originally a joke of a project, that became a perfect litmus test of why any developed application can run on this unified platform. With a measured amount of engineering effort, your company can move any language and any developed application to Kubernetes, gaining the power of both the shared control plane and Cloud Native velocity of development.
+*** I’ll be going over:
+- Overview of Kubernetes
+  - Cloud Native Application Development
+  - Modern Shared Control Plane
+- How this project accidentally came together
+- Why we need something like this in the real world
+- Example ETL Pipelines in Kubernetes
+  - A simple example of a Java Application
+  - A complex example of running a COBOL application
+- No reason why you’re language couldn’t run
+* Developing Applications with Kubernetes
+** Talk Abstract
+Microservices revolutionized the way we look at app development and is now one of the most popular programming architectures. Now, Docker alongside Kubernetes is changing the way teams look at deployments of these microservices.
+** Talk Description
+Microservices revolutionized the way we look at app development and is now one of the most popular programming architectures. Now, Docker alongside Kubernetes is changing the way teams look at deployments of these microservices. Kubernetes provides powerful production-grade orchestration for your “Dockerized” microservices.
+In this workshop, you’ll get an overview of Kubernetes, and what it provides for application development. You’ll then go through the process of building and deploying a microservice application on Kubernetes.
+This is a hands-on-keyboard lab, everyone should come with a laptop and a desire to learn. Attendees can use minikube locally, or cloud accounts will be provided. We’ll cover:
+
+- Kubernetes basics
+- Building Container Images
+- Deploying the application with Kubernetes
+- Upgrading and scaling the application with Kubernetes
+- Debugging your application in Kubernetes
+** Notes
+Who should attend: Anyone interested in getting a hands on overview of Kubernetes, whether they are interested in developing for the platform, or may need to support folks that are.
+Take back to work: The take away should be a firm understanding of the Kubernetes environment, and how one develops for it. It aims to expose some of the benefits of the platform so that people who are evaluating bringing it into their environment can have a deeper sense of what application development looks like on it.
+
+* Lessons Learned from Cultivating Open Source Projects and Communities
+** Talk Abstract
+Over the last decade, I’ve had the privilege professionally of building and cultivating some Open Source projects and communities. I’ve grown other projects along the way some successful, and some not. I’ve learned a ton on this journey; honestly still am, and I want to tell this story.
+** Talk Description
+Over the last decade, I’ve had the privilege professionally of building and cultivating some Open Source projects and communities. To start off this isn’t a tools talk, this is a talk about the soft skills you have to have to be able to succeed as a leader in an Open Source project. My journey started tending the frequently asked questions for a small Linux Distribution called CRUX, and then years later professionally moved to the OpenStack-Chef project to build OpenStack clouds. I’ve grown other projects along the way helped build tooling and communities some successful and still running today, others were just flashes in the pan.  I’ve learned a ton on this journey; honestly still am, but I have some lessons that are hard learned and hopefully I warn pitfalls that can cause wasted cycles and pain.
+I’ll be going over:
+
+- This isn’t a tools talk
+- Scoping your project
+  - Personally-backed
+  - Corporate-backed
+- Empathy and audience is important
+  - Celebrations
+  - Defeats
+- Successful traits of Open Source projects
+  - Trust
+  - Clear Vision
+  - Have a plan to move on if needed
+- Honestly, is it even worth this hassle?
+* VMware Template Management, Reimagined for the 21st Century
+** Talk Abstract
+In the modern day SDDC, the ability to create a VM or template consistent, repeatable, and streamlined is a requirement. Using open source projects like Packer, Ansible, and InSpec you can build this nirvana.
+** Talk Description
+In the modern day SDDC, the ability to create a VM or template consistent, repeatable, and streamlined is a requirement. Using open source projects like Packer, Ansible, and InSpec you can build this nirvana. Using Packer to create a template, Ansible to do your configuration management, and then trigger InSpec scanning of your compliance policies all on vSphere. In this talk, we will walk through the required foundational knowledge to build this pipeline. In this talk you’ll learn:
+
+- Overview of why creating pipelines is Important
+- Overview of Packer, Ansible, and Inspec
+- A demo of using the pipeline on the VMware on IBM Cloud
+-  Resources to start learning implementing portions for yourself

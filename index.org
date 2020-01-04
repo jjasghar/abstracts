@@ -1,6 +1,6 @@
 #+TITLE:       Abstracts
 #+AUTHOR:      JJ Asghar
-#+DATE:        2019-11-12
+#+DATE:        2020-01-03
 #+EMAIL:       jjasghar@gmail.com
 
 * Scope
@@ -9,4 +9,4 @@ Hi! You've found my abstract page. These are the abstracts for different confere
 reach out to me at my [[https://jjasghar.github.io/about][about page]].
 
 - [[https://jjasghar.github.io/abstracts/2019.html][2019]]
-- 2020 TBD
+- [[https://jjasghar.github.io/abstracts/2020.html][2020]]
