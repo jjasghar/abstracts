@@ -8,5 +8,6 @@
 Hi! You've found my abstract page. These are the abstracts for different conferences, if you're interested in having me speak, don't hesitate to
 reach out to me at my [[https://jjasghar.github.io/about][about page]].
 
+- [[https://jjasghar.github.io/abstracts/2018.html][2018]]
 - [[https://jjasghar.github.io/abstracts/2019.html][2019]]
 - [[https://jjasghar.github.io/abstracts/2020.html][2020]]

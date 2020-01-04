@@ -1,0 +1,82 @@
+#+TITLE:       2018 Abstracts
+#+AUTHOR:      JJ Asghar
+#+DATE:        2020-01-03
+#+EMAIL:       jjasghar@gmail.com
+
+* Migrate Your Legacy Applications to GKE Using Habitat
+Habitat is designed to be one of the quickest ways to build, deploy, and manage
+cloud native applications, but every company has legacy applications that are
+challenges to your overall cloud migration strategy. This talk will be a
+practical demo in how to use Habitat to migrate a Java/Tomcat application from
+a legacy infrastructure to Google Kubernetes Engine (GKE). We will start with
+explaining what Habitat is, how it can make your application portable and more
+service oriented without major code modifications, so you can package it up
+and ship it into GKE. This talk will include all live coding and walking through
+the steps that are required to show how quickly you can get going with
+Habitat and GKE. The ideal audience of this topic is anyone who may have a
+Java application that is interested in moving to a Cloud Native application, or
+someone who wants to see how easy it is to use Habitat to get their
+application to GKE.
+
+Expected time: 30-45 mins
+
+* VMware and Chef, what’s the ecosystem like, and where does everything fit?
+VMware and Chef have multiple places to integrate. From ESXi to vRA, Chef
+can drive or be driven via VMware. In this talk I will go over the majority
+of the integrations and the places that as a VMware user, you should be
+able to identify how Chef can play in your environment. I’ll demo some
+of the original integrations, show off the new test-kitchen
+integration with vCenter and 6.5 compare it to the legacy way. I
+will also show off the possible ways to integrate Chef with vRealize
+Automation both internally in the typical vRA workflow, to driving vRA
+as a cloud. Finally throughout the presentation I’ll highlight best
+practices and concepts to make Chef and VMware as delightful as possible.
+
+Expected time: 30-60 mins
+
+* Building security into your workflow with InSpec
+
+InSpec is an open source testing framework for infrastructure with a
+human- and machine-readable language for specifying compliance, security,
+and policy requirements. Using a combination of command-line and
+remote-execution tools, InSpec can help you keep your infrastructure
+aligned with security and compliance guidelines on an ongoing basis,
+rather than waiting for and then remediating from arduous annual audits.
+InSpec’s flexibility makes it a key tool choice for incorporating security
+into a complete continuous delivery workflow, reducing the risk of new
+features and releases breaking established host-based security guidelines.
+This talk covers the basics of working with InSpec, writing tests to
+reflect your organization’s security guidelines, and managing InSpec as
+part of a high-velocity workflow.
+
+Expected time: 30-45 mins
+
+* Being productive with InSpec in about 30-40mins
+InSpec is an open source testing framework for infrastructure with a
+human- and machine-readable language for specifying compliance, security,
+and policy requirements. I'll be showing off how to use InSpec in a
+few different ways. I want to show how it can make your day in, and day out,
+better with the different ways you can use such a powerful tool. Ideally
+walking away from this talk you'll be able to take it and start using it as
+soon as you want to for free.
+
+Expected time: 30-45 mins
+
+* Using test-kitchen and InSpec with any of the major configuration management systems
+I'll be demoing using test-kitchen with Ansible, Chef, Puppet, and Salt, and
+have InSpec behind it to validate the changes. This won't be a religious war,
+but a conversation and the way to show leveraging two Open Source and Free tools
+you can gain confidence in your changes. Walking away from this talk will
+hopefully inspire you to not have to YOLO things out to production, but give you
+the tools to start on a path to an infrastructure based CI pipeline.
+
+Expected time: 30-45 mins
+* Using InSpec to get Automated Continual Compliance in your VMware Infrastructure
+** Including Compliance & Security Checks in the Delivery Pipeline
+
+Bolting compliance and security onto an application after it’s been deployed
+is an easy way to ensure those applications are vulnerable to attack and
+violate your organization's policy. Yet, that is often the approach that is
+taken. Developers must shift compliance to the early phases of the process.
+With InSpec, verifying compliance and security controls is just as easy as
+running unit tests.

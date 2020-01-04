@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>2018 Abstracts</title>
+<!-- 2020-01-04 Sat 13:13 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Org-mode">
+<meta name="author" content="JJ Asghar">
+
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css">
+/* org mode styles on top of twbs */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 18px;
+    margin-bottom: 105px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 101px;
+    background-color: #f5f5f5;
+}
+
+footer > div {
+    padding: 10px;
+}
+
+footer p {
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#table-of-contents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+pre {
+    font-size: 16px;
+}
+
+.footpara {
+    display: inline-block;
+}
+
+figcaption {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+/* from twbs docs */
+
+.bs-docs-sidebar.affix {
+    position: static;
+}
+@media (min-width: 768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px;
+    }
+}
+
+/* All levels of nav */
+.bs-docs-sidebar .nav > li > a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+}
+.bs-docs-sidebar .nav > li > a:hover,
+.bs-docs-sidebar .nav > li > a:focus {
+    padding-left: 19px;
+    color: #A1283B;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 1px solid #A1283B;
+}
+.bs-docs-sidebar .nav > .active > a,
+.bs-docs-sidebar .nav > .active:hover > a,
+.bs-docs-sidebar .nav > .active:focus > a {
+    padding-left: 18px;
+    font-weight: bold;
+    color: #A1283B;
+    background-color: transparent;
+    border-left: 2px solid #A1283B;
+}
+
+/* Nav: second level (shown on .active) */
+.bs-docs-sidebar .nav .nav {
+    display: none; /* Hide by default, but at >768px, show it */
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav > li > a:focus {
+    padding-left: 29px;
+}
+.bs-docs-sidebar .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav > .active:focus > a {
+    padding-left: 28px;
+    font-weight: 500;
+}
+
+/* Nav: third level (shown on .active) */
+.bs-docs-sidebar .nav .nav .nav {
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav .nav > li > a:focus {
+    padding-left: 39px;
+}
+.bs-docs-sidebar .nav .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav .nav > .active:focus > a {
+    padding-left: 38px;
+    font-weight: 500;
+}
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+    .bs-docs-sidebar .nav > .active > ul {
+        display: block;
+    }
+    /* Widen the fixed sidebar */
+    .bs-docs-sidebar.affix,
+    .bs-docs-sidebar.affix-bottom {
+        width: 213px;
+    }
+    .bs-docs-sidebar.affix {
+        position: fixed; /* Undo the static from mobile first approach */
+        top: 20px;
+    }
+    .bs-docs-sidebar.affix-bottom {
+        position: absolute; /* Undo the static from mobile first approach */
+    }
+    .bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+@media (min-width: 1200px) {
+    /* Widen the fixed sidebar again */
+    .bs-docs-sidebar.affix-bottom,
+    .bs-docs-sidebar.affix {
+        width: 263px;
+    }
+}
+</style>
+<script type="text/javascript">
+$(function() {
+    'use strict';
+
+    $('.bs-docs-sidebar li').first().addClass('active');
+
+    $(document.body).scrollspy({target: '.bs-docs-sidebar'});
+
+    $('.bs-docs-sidebar').affix();
+});
+</script>
+</head>
+<body>
+<div id="content" class="container">
+<div class="row"><div class="col-md-9"><h1 class="title">2018 Abstracts</h1>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Migrate Your Legacy Applications to GKE Using Habitat</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Habitat is designed to be one of the quickest ways to build, deploy, and manage
+cloud native applications, but every company has legacy applications that are
+challenges to your overall cloud migration strategy. This talk will be a
+practical demo in how to use Habitat to migrate a Java/Tomcat application from
+a legacy infrastructure to Google Kubernetes Engine (GKE). We will start with
+explaining what Habitat is, how it can make your application portable and more
+service oriented without major code modifications, so you can package it up
+and ship it into GKE. This talk will include all live coding and walking through
+the steps that are required to show how quickly you can get going with
+Habitat and GKE. The ideal audience of this topic is anyone who may have a
+Java application that is interested in moving to a Cloud Native application, or
+someone who wants to see how easy it is to use Habitat to get their
+application to GKE.
+</p>
+
+<p>
+Expected time: 30-45 mins
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> VMware and Chef, what’s the ecosystem like, and where does everything fit?</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+VMware and Chef have multiple places to integrate. From ESXi to vRA, Chef
+can drive or be driven via VMware. In this talk I will go over the majority
+of the integrations and the places that as a VMware user, you should be
+able to identify how Chef can play in your environment. I’ll demo some
+of the original integrations, show off the new test-kitchen
+integration with vCenter and 6.5 compare it to the legacy way. I
+will also show off the possible ways to integrate Chef with vRealize
+Automation both internally in the typical vRA workflow, to driving vRA
+as a cloud. Finally throughout the presentation I’ll highlight best
+practices and concepts to make Chef and VMware as delightful as possible.
+</p>
+
+<p>
+Expected time: 30-60 mins
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Building security into your workflow with InSpec</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+InSpec is an open source testing framework for infrastructure with a
+human- and machine-readable language for specifying compliance, security,
+and policy requirements. Using a combination of command-line and
+remote-execution tools, InSpec can help you keep your infrastructure
+aligned with security and compliance guidelines on an ongoing basis,
+rather than waiting for and then remediating from arduous annual audits.
+InSpec’s flexibility makes it a key tool choice for incorporating security
+into a complete continuous delivery workflow, reducing the risk of new
+features and releases breaking established host-based security guidelines.
+This talk covers the basics of working with InSpec, writing tests to
+reflect your organization’s security guidelines, and managing InSpec as
+part of a high-velocity workflow.
+</p>
+
+<p>
+Expected time: 30-45 mins
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Being productive with InSpec in about 30-40mins</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+InSpec is an open source testing framework for infrastructure with a
+human- and machine-readable language for specifying compliance, security,
+and policy requirements. I'll be showing off how to use InSpec in a
+few different ways. I want to show how it can make your day in, and day out,
+better with the different ways you can use such a powerful tool. Ideally
+walking away from this talk you'll be able to take it and start using it as
+soon as you want to for free.
+</p>
+
+<p>
+Expected time: 30-45 mins
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Using test-kitchen and InSpec with any of the major configuration management systems</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+I'll be demoing using test-kitchen with Ansible, Chef, Puppet, and Salt, and
+have InSpec behind it to validate the changes. This won't be a religious war,
+but a conversation and the way to show leveraging two Open Source and Free tools
+you can gain confidence in your changes. Walking away from this talk will
+hopefully inspire you to not have to YOLO things out to production, but give you
+the tools to start on a path to an infrastructure based CI pipeline.
+</p>
+
+<p>
+Expected time: 30-45 mins
+</p>
+</div>
+</div>
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Using InSpec to get Automated Continual Compliance in your VMware Infrastructure</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> Including Compliance &amp; Security Checks in the Delivery Pipeline</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+Bolting compliance and security onto an application after it’s been deployed
+is an easy way to ensure those applications are vulnerable to attack and
+violate your organization's policy. Yet, that is often the approach that is
+taken. Developers must shift compliance to the early phases of the process.
+With InSpec, verifying compliance and security controls is just as easy as
+running unit tests.
+</p>
+</div>
+</div>
+</div>
+</div><div class="col-md-3"><nav id="table-of-contents">
+<div id="text-table-of-contents" class="bs-docs-sidebar">
+<ul class="nav">
+<li><a href="#sec-1">1. Migrate Your Legacy Applications to GKE Using Habitat</a></li>
+<li><a href="#sec-2">2. VMware and Chef, what’s the ecosystem like, and where does everything fit?</a></li>
+<li><a href="#sec-3">3. Building security into your workflow with InSpec</a></li>
+<li><a href="#sec-4">4. Being productive with InSpec in about 30-40mins</a></li>
+<li><a href="#sec-5">5. Using test-kitchen and InSpec with any of the major configuration management systems</a></li>
+<li><a href="#sec-6">6. Using InSpec to get Automated Continual Compliance in your VMware Infrastructure</a>
+<ul class="nav">
+<li><a href="#sec-6-1">6.1. Including Compliance &amp; Security Checks in the Delivery Pipeline</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+</div></div></div>
+<footer id="postamble" class="">
+<div><p class="date">Date: 2020-01-03</p>
+<p class="author">Author: JJ Asghar</p>
+<p class="date">Created: 2020-01-04 Sat 13:13</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="http://orgmode.org">Org-mode</a> 9.1.9)</p>
+</div>
+</footer>
+</body>
+</html>
