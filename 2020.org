@@ -1,6 +1,6 @@
 #+TITLE:       2020 Abstracts
 #+AUTHOR:      JJ Asghar
-#+DATE:        2020-01-03
+#+DATE:        2020-01-08
 #+EMAIL:       jjasghar@gmail.com
 
 * Cloud Native Application Development with Kubernetes and OpenShift
@@ -18,19 +18,16 @@ Who should attend: Anyone interested in getting a hands on overview of Kubernete
 Take back to work: The take away should be a firm understanding of the Kubernetes environment and using OpenShift’s workflow, and how one develops for it. It aims to expose some of the benefits of the platform so that people who are evaluating bringing it into their environment can have a deeper sense of what application development looks like on it.
 * COBOL on Kubernetes
 ** Talk Abstract
-Kubernetes owning the mind share of the next generation, legacy applications are getting farther behind. There is hesitation around moving these legacy applications to this new platform. I’ll walk through a perfect litmus test of why any developed application can run on this unified platform.
+Simply said, the software that runs a significant amount of the world is being left behind. Kubernetes owns the mind share of the next generation, and legacy applications are getting farther behind. There is hesitation around moving these legacy applications to this new platform. I’ll walk through a perfect litmus test of why any developed application can run on Kubernetes powered compute platform.
 ** Talk Description
-With Kubernetes owning the mind share of the next generation of applications, legacy applications are getting farther and farther behind. There is hesitation around moving these legacy applications to this new control plane and platform. They were developed at a time when there was a specific and consistent way of developing software allowing Developers to focus on the business value instead of the Operations requirements. The world is quickly moving on, and the software that runs a significant amount of the world is being left behind. This talk, I’ll walk through what I thought was originally a joke of a project, that became a perfect litmus test of why any developed application can run on this unified platform. With a measured amount of engineering effort, your company can move any language and any developed application to Kubernetes, gaining the power of both the shared control plane and Cloud Native velocity of development.
-*** I’ll be going over:
+Simply said, the software that runs a significant amount of the world is being left behind. Kubernetes owns the mind share of the next generation of applications, and legacy applications are getting farther and farther behind. There is hesitation around moving these legacy applications to this new control plane and compute platform. These applications were developed at a time when there was a consistent way of developing software allowing Developers to focus on the business value instead of the Operations requirements. In this talk, I’ll walk through what I thought was originally a joke of a project that became a perfect litmus test of why any developed application can run on this unified platform. With a measured amount of engineering effort, your company can move any language and any developed application to Kubernetes, gaining the power of both the shared control plane and Cloud-Native velocity of development.
+*** Outline
 - Overview of Kubernetes
-  - Cloud Native Application Development
-  - Modern Shared Control Plane
+- Cloud-Native Application Development
 - How this project accidentally came together
 - Why we need something like this in the real world
-- Example ETL Pipelines in Kubernetes
-  - A simple example of a Java Application
-  - A complex example of running a COBOL application
-- No reason why you’re language couldn’t run
+- An example of a basic ETL pipeline based with COBOL on Kubernetes
+- No reason why your language couldn’t run
 * Developing Applications with Kubernetes
 ** Talk Abstract
 Microservices revolutionized the way we look at app development and is now one of the most popular programming architectures. Now, Docker alongside Kubernetes is changing the way teams look at deployments of these microservices.
